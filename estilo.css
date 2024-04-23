@@ -1,0 +1,54 @@
+/* Tipo de fuente 1 importada directamente desde la página. */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+/* Tipo de fuente 2 importada directamente desde la página. */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body
+{
+    background-color: gainsboro;
+}
+
+h1
+{
+    color:gray;
+}
+
+#vinculo-1:hover
+{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+#vinculo-2:hover
+{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.textos-centrados
+{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#foto-perfil
+{
+    width: 300px;
+    height: 350px;
+
+    border-radius: 50%;
+
+    position: relative;
+    left: 40%;
+}
+
+#mi-historia
+{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 20px;
+}
